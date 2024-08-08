@@ -12,7 +12,7 @@ public class GameBoard : MonoBehaviour
     [Header("Settings")]
     [SerializeField] GameManager gameManager;
     [SerializeField] float waitDuration = 0.1f;
-    [SerializeField] float fourTileProbability = 0.1f;
+    [SerializeField] float fourTileProbability = 0.3f;
     
     TileGrid grid;
     List<Tile> tiles;
